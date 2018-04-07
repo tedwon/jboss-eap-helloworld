@@ -1,0 +1,16 @@
+== JBoss EAP Quick Start Template Project
+
+* Run EAP
+----
+./bin/standalon.sh
+----
+
+* Build & Deploy
+----
+mvn -DskipTests clean package wildfly:deploy
+----
+
+* Test
+----
+curl -v 127.0.0.1:8080/helloworld/HelloWorld
+----
