@@ -1,4 +1,5 @@
-== JBoss EAP Quick Start Template Project
+== JBoss EAP QuickStart Template Project
+* Original: https://github.com/wildfly/quickstart/tree/master/helloworld
 
 * Run EAP
 ----
